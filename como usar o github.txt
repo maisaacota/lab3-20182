@@ -1,0 +1,53 @@
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        teste.c.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\AppProva\Desktop\aleatoria\lab3-20182>git add .
+
+C:\Users\AppProva\Desktop\aleatoria\lab3-20182>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   teste.c.txt
+
+
+C:\Users\AppProva\Desktop\aleatoria\lab3-20182>git commit -m "comentario"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'AppProva@hp-240-g3-maisa.(none)')
+
+C:\Users\AppProva\Desktop\aleatoria\lab3-20182>git config --global user.email "maisaacota@gmail.com"
+
+C:\Users\AppProva\Desktop\aleatoria\lab3-20182>git config --global user.name "maisa"
+
+C:\Users\AppProva\Desktop\aleatoria\lab3-20182>git commit -m "comentario"
+[master abdc334] comentario
+ 1 file changed, 2 insertions(+)
+ create mode 100644 teste.c.txt
+
+C:\Users\AppProva\Desktop\aleatoria\lab3-20182>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 283 bytes | 141.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/maisaacota/lab3-20182.git
+   05a3e9f..abdc334  master -> master
+
+C:\Users\AppProva\Desktop\aleatoria\lab3-20182>
